@@ -1,9 +1,9 @@
 {
   "expo": {
-    "owner": "getants",
-    "name": "Via",
-    "slug": "getvia",
-    "scheme": "getvia",
+    "owner": "opinionated-expo-template",
+    "name": "opinionated-expo-template",
+    "slug": "opinionated-expo-template",
+    "scheme": "opinionated-expo-template",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

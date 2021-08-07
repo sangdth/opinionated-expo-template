@@ -1,4 +1,8 @@
 {
+  "author": "sangdth",
+  "description": "Strong opinionated expo template",
+  "license": "MIT",
+  "homepage": "https://github.com/sangdth/opinionated-expo-template",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "dev": "yarn cache clean && expo start --ios --clear",
@@ -46,6 +50,5 @@
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^4.0.8",
     "typescript": "^4.3.5"
-  },
-  "private": true
+  }
 }

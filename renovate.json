@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "automerge": true
+    },
+    {
+      "matchPackageNames": [
+        "react-native-reanimated",
+        "react-native-screens",
+        "react-native-svg",
+        "react-native-web",
+        "react-native-unimodules",
+        "@react-native-community/datetimepicker",
+        "@react-native-picker/picker",
+        "@react-native-async-storage/async-storage"
+      ],
+      "enabled": false
+    }
+  ]
+}
