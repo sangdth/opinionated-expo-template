@@ -1,0 +1,18 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "strict": true,
+    "allowJs": false,
+    "paths": {
+      "@assets/*": ["assets", "assets/*"],
+      "@components/*": ["components", "components/*"],
+      "@graphqls/*": ["graphqls", "graphqls/*"],
+      "@hooks": ["hooks", "hooks/*"],
+      "@lib/*": ["lib", "lib/*"],
+      "@screens/*": ["screens/*"],
+      "@stacks/*": ["stacks/*"],
+    },
+
+  }
+}

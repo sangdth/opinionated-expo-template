@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    ".expo",
+    ".expo-shared",
+    ".github",
+    "coverage",
+    "languages.ts",
+    "node_modules"
+  ],
+  "include": [
+    "declarations.d.ts",
+    "**/**/*.spec.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
